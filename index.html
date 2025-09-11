@@ -1,191 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name ="description" content="khushi’s Portfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="khushi">
-    <title>KHUSHI'S PORTFOLIO</title>
-    <meta name="title" content="khushi’s Portfolio">
-    <meta name="twitter:title" content="khushi’s Portfolio">
-    <meta name="og:title" content="khushi’s Portfolio">
-</head>
-<body>
-<div>
-    <nav>
-  <a href="#aboutme" target="_self">ABOUT ME</a> | 
-  <a href="#certification" target="_self">CERTIFICATION</a> | 
-  <a href="#skills" target="_self">SKILLS</a> | 
-  <a href="#contactme" target="_self">CONTACT ME</a>
-</nav>
-    <hr>
-     <section id="aboutme">
-    <br>
-   <H3> 💟 Welcome to Khushi’s Portfolio</H3>  
-    </br> 
-    <img src="https://i.postimg.cc/cHvZrCL5/Whats-App-Image-2025-08-05-at-11-30-36-PM.jpg" alt="profile picture" width="300" height="300" radius="50%">
-</div>
-<style>
-    img {
-        border-radius: 100%;
+  <meta charset="UTF-8">
+  <meta name="description" content="Khushi’s Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Khushi">
+  <title>Khushi's Portfolio</title>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: lightgray;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    
+    nav {
+      background: #333;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: lightblue;
+    }
+
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h2 {
+      background-color: #997074;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+
+    .profile-img {border-radius: 100%;
          border: 6px solid;
            border: 4px solid #0e0e13;
   box-shadow: 0px 0px 20px rgba(20, 19, 24, 0.7); 
   border-radius: 100px;
-}
-    h1 {
-        background: lightblue;
+      object-fit: cover;
     }
-</style>
-<style>
-    div {
-        text-align: center;
-    }
-    h2 {
-        text-align: center;
-    }
-    h6 {
-        font-size: 18px;
-        background-color: gray;
-        display: inline-block;
-        margin-left: 810px;
-        padding: 10px 10px;
-        border-radius: 15px;
         
-    }
-</style>
+
     
-    <h6> 
-       &hearts; ABOUT ME 
-    </h6>
-    </div>
-    <style> 
-        h5 {
-            text-align: center;
-            color: rgb(214, 55, 82);
-            font-size-adjust: 20PX;
-        }
-    </style>
-      <p>
-        My name is khushi. I am a student and a beginner programmer, currently learning programming with a focus on HTML and CSS. 
-       I am passionate about building simple projects, improving my coding skills, and exploring the world of web development.
-       </p>
-       </section>
-    <hr>
-    <br>
-   <div> 
-    <section id="certification">
-    <h2> &hearts; CERTIFICATION </h2>
-    </div>
-</br> 
-<br>
-<h3>Introducing Generative AI with AWS </h3>
-</br>
+    button {
+      background: #ff4e50;
+      color: black;
+      border: solid;
+      border-radius: 25px;
+      padding: 12px 25px;
+      margin: 10px;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #ff758c;
+      cursor: pointer;
+    }
 
-<ul>
-    <br>
-    <li>Issued by: Udacity (in collaboration with Accenture)</li>
-    <li>Date: July 5, 2025</li>
-    <li>
-        Description: Successfully completed a verified course on Generative AI with AWS,
-     gaining knowledge of fundamental concepts of Generative AI, practical applications, 
-        and the integration of AWS services to build and deploy AI-driven solutions.</li>
+
+    ul {
+      list-style-type: square;
+      text-align: left;
+      max-width: 700px;
+      margin: auto;
+      padding: 0;
+    }
+    li {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: lightblue;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: white;
+    }
+
+    
+    @media (max-width: 768px) {
+      .profile-img {
+        width: 180px;
+        height: 180px;
+      }
+      nav {
+        text-align: center;
+      }
+      ul {
+        padding: 0 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+  <nav>
+    <a href="#aboutme">ABOUT ME</a> 
+    <a href="#certification">CERTIFICATION</a> 
+    <a href="#skills">SKILLS</a> 
+    <a href="#contactme">CONTACT</a>
+  </nav>
+
+  <section id="aboutme">
+    <h2>💟 Welcome to Khushi’s Portfolio</h2>
+    <div>
+      <img src="https://i.postimg.cc/cHvZrCL5/Whats-App-Image-2025-08-05-at-11-30-36-PM.jpg" width="300" height="400" radius="50%"
+           alt="Khushi Sharma Profile Picture" 
+           class="profile-img">
+    </div>
+    <p>
+      Hello! My name is <b>Khushi Sharma</b>. I am a student and a beginner programmer, currently focusing on HTML, CSS, and JavaScript.  
+      I enjoy learning by building small projects that help me understand concepts in a practical way. My long-term goal is to become a skilled web developer who can design beautiful and user-friendly websites.  
+    </p>
+    <p>
+      Apart from coding, I love <b>watching movies</b> 🎬 and <b>playing games</b> 🎮. These hobbies help me relax and also inspire me to think creatively. I believe in continuous learning, teamwork, and adapting to new challenges with a positive attitude.
+    </p>
+  </section>
+
+  
+  <section id="certification">
+    <h2> &hearts; CERTIFICATION</h2>
+    <h3>Introducing Generative AI with AWS</h3>
+    <ul>
+      <li>Issued by: Udacity (in collaboration with Accenture)</li>
+      <li>Date: July 5, 2025</li>
+      <li>Description: Completed a verified course on Generative AI with AWS, learning core concepts, applications, and integration with AWS services. I gained hands-on experience in building AI-driven solutions and understood how AI is transforming industries.</li>
     </ul>
-</br>
-<br>
-<h3>AI Fundamentals Training</h3>
-</br>
-<ul>
-    <br>
-    <li>Issued by: NavGurukul in collaboration with Anudip Foundation for Social Welfare</li>
 
-<li>Date: August 1, 2025</li>
+    <h3>AI Fundamentals Training</h3>
+    <ul>
+      <li>Issued by: NavGurukul with Anudip Foundation for Social Welfare</li>
+      <li>Date: August 1, 2025</li>
+      <li>Description: Training under AI Opportunity Fund supported by Google.org & ADB. Learned about AI concepts, ethics, and real-world applications. This certification gave me a strong foundation in Artificial Intelligence and problem-solving using technology.</li>
+    </ul>
+  </section>
 
-<li>
-    Description: Successfully completed training under the AI Opportunity Fund: Asia-Pacific, 
-    an initiative supported by Google.org and the Asian Development Bank. 
-    The program focused on core AI concepts, practical applications, and ethical aspects of Artificial Intelligence.</li>
-</br>
-</ul>
-</section> 
-<HR>
-    <BR>
-       <div>
-        <section id="skills">
-        <h2> &hearts; SKILLS </h2>
-        </div>
-    </BR> 
-       <br>
-       <h4>🖥 Technical Skills</h4>
-        </BR>
-        <br> 
-        <ul  style="list-style-type:square">
-        <li>HTML – Basic website structure</li>
-        <li>CSS – Styling web pages</li>
-        <li>JavaScript – Adding interactivity</li>
-        </ul>
-    </br>
-        <h4> 🤝 Soft Skills</h4>
-        <ul style="list-style-type:square">
-            <li>Communication Skills</li>
-            <li>Teamwork</li>
-            <li>Problem Solving</li>
-            <li>Adaptability</li>
-            <li>Time Management</li>
-        </ul>   
+  <section id="skills">
+    <h2>&hearts; SKILLS</h2>
+    <h3>🖥 Technical Skills</h3>
+    <ul>
+      <li><b>HTML</b> – Creating structured content for websites</li>
+      <li><b>CSS</b> – Styling and designing web pages to make them attractive</li>
+      <li><b>JavaScript</b> – Adding interactivity and making websites dynamic</li>
+      <li><b>Basic Git/GitHub</b> – Version control and managing code</li>
+    </ul>
 
-</p>
-</section>
-    <HR>
-    <BR>
-       <div>
-        <section id="contactme">
-        <h2> &hearts; CONTACT </h2>
-        </section>
-        </div>
-    </BR> 
-<div>
-<button>📧 Email: khushi25@navgurukul.org </button>
-        <button> 📞 Phone: 9826554301 </button>
-        <button> 📍 Location: India </button>
-        <p> 
-           <span>Feel free to contact me for collaboration, ideas, or learning together.❤️</span> 
-        </p>
+    <h3>🤝 Soft Skills</h3>
+    <ul>
+      <li>Effective <b>Communication</b> with peers and mentors</li>
+      <li><b>Teamwork</b> – Collaborating on group projects</li>
+      <li><b>Problem Solving</b> – Finding creative solutions to challenges</li>
+      <li><b>Adaptability</b> – Adjusting quickly to new tools and technologies</li>
+      <li><b>Time Management</b> – Balancing study, coding, and personal life</li>
+    </ul>
+  </section>
 
-</div>
+  
+  <section id="contactme">
+    <h2>&hearts;  CONTACT</h2>
+    <div>
+      <button>📧 Email: khushi25@navgurukul.org</button>
+      <button>📞 Phone: 9826554301</button>
+      <button>📍 Location: India</button>
+    </div>
+    <p>
+      Feel free to reach out if you want to <b>collaborate</b>, <b>share ideas</b>, or <b>learn together</b>.  
+      I am always open to discussions about coding, technology, and creative projects. ❤️
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Khushi Sharma | Designed with ❤️</p>
+
+  </footer>
+
 </body>
-<style>
-    li { 
-        font-size: 20px;
-     }
-     span {
-        color: rgb(131, 50, 47)
-     }
-     p {
-        color: slategray;
-     }
-     h2{
-        background-color: rgb(214, 156, 175);
-        border-radius: 20px;
-        padding: 10px 20px;
-        display: inline-block;
-     }
-        button {
-            background-color: gray;
-            border-radius: 12px;
-            padding: 10px 24px;
-            cursor: pointer;
-        }
-        a {
-            text-decoration: none;
-            color: black;
-        }
-        h3,h4 {
-            font-size: 25px;
-        }
-        body {
-            background-color: lightgray;
-        }
-</style>
-
 </html>
